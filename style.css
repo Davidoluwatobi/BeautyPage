@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    background:  url(image/Resized.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.sp1,
+.sp2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.testimonial-content {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Optional: Adds a slight blur effect */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin-top: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin-right: 160px;
+}
+.testimonial-content .info{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    text-align: left;
+}
+.testimonial-content .name {
+    font-size: 22px;
+    text-align: left;
+}
+.text-box .fa-star {
+    color: #C24E00;
+}
+.info span {
+    font-size: 12px;
+}
+.testimonial-content img {
+    max-width: 30%; 
+    height: 80px; 
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+    object-fit: cover; 
+}
+.appointment-day {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 15px;
+}
+ .haircut {
+    display: flex;
+    gap: 50px;
+    /* text-align: left; */
+    flex: 1;
+}
+.haircut p {
+    margin: 0;
+    text-align: left;
+    /* white-space: nowrap; */
+}
+.pay {
+    font-weight: bold;
+    text-align: right;
+    padding-left: 4px; 
+    
+}
+button {
+    padding: 15px 40px;
+    border-radius: 15px;
+    background-color: #C24E00;
+}
+
+
+.big {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 110px;
+    padding-left: 150px;
+    color: rgb(239, 151, 36);
+    padding-top: 50px;
+    line-height: -10em;
+    z-index: 10;
+}
+
+.phone-mockup {
+    width: 375px;  /* Typical phone width (adjustable) */
+    height: 667px; /* Typical phone height */
+    border: 5px solid rgb(205, 156, 12); /* Creates a phone-like border */
+    border-radius: 30px; /* Rounded edges for realism */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds depth */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)100%, rgba(0,0,0,0.5)100%), url(image/resisized2.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 500px
+    /* position: relative; */
+    margin 60px;
+    margin-bottom: 140px;
+    /* padding-right: 25px; */
+
+}
+.phone-before {
+    display: flex;
+    align-items: center;  /* Align items vertically */
+    justify-content: space-between; /* Push content to edges */
+    width: 100%;
+    padding: 5px 15px; /* Adjust spacing */
+}
+
+.phone-before p {
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.phone-before .icons {
+    display: flex;
+    gap: 3px;
+
+}
+
+.heading {
+    margin-top: 30px;
+}
+.heading h2 {
+    font-weight: bold;
+    font-size: 800;
+    padding: 10px;
+    color: rgb(239, 151, 36);
+}
+.heading p {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.Faqs {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Faqs h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 15px;
+    color: antiquewhite;
+}
+.Faqs div {
+    padding: 20px 15px;
+    border: 2px solid #666039;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+.fa1 {
+    display: flex;
+    justify-content: space-between; /* Push icon to the edge */
+    align-items: center; /* Align text and icon */
+    padding: 20px 25px;
+    border: 2px solid #fff; /* Optional: adds a border for visibility */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.fa1 i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edae0d;
+    color: #fff; 
+    border-radius: 50%; /* Makes it a circle */
+    font-size: 16px; /* Adjust icon size */
+}
+
+.phone-after {
+    display: flex;
+    justify-content: space-evenly; /* Even spacing between icons */
+    align-items: center; /* Align icons vertically */
+    width: 100%; /* Ensure it takes the full width */
+    padding: 10px 15px; /* Add some vertical padding */
+    margin-top: 50px;
+    border: 1px solid rgb(177, 239, 85);
+    border-radius: 20%;
+}
+.phone-after i {
+    font-size: 25px; /* Adjust icon size if needed */
+    color: antiquewhite;
+}
+
